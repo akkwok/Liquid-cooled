@@ -2497,7 +2497,7 @@ border-top: 1px solid #ccc;
     padding: 15px;
     height: 8px;
     z-index: 9999;
-    top: 0
+    top: -6px;
 }
 
 #BMC-width-full #BMC-nav ul li div {
@@ -2536,6 +2536,9 @@ border-top: 1px solid #ccc;
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
+        background: #fff;
+    padding: 0.3em 0.5em;
+    border-radius: 10px;
 }
 
 #BMC-width-full #BMC-nav ul li.on.active b,
